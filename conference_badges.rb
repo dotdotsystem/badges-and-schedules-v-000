@@ -18,6 +18,16 @@ array.each  do |name|
 end
 return nameArray
 end
+
+def assign_rooms(array)
+nameArray = []
+counter = 1
+array.each do |name|
+  nameArray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+  counter += 1
+end
+return nameArray
+end
 def printer(array)
   batch_badge_creator(array).each do |id|
     puts id
