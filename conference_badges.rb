@@ -9,18 +9,9 @@ each_name = Array.new
 end
 return each_name
 end
-def assign_rooms(array)
-nameArray = []
-counter = 1
-array.each  do |name|
-  rooms_assign.push ("Hello, #{name}! You'll be assigned to room #{counter}!")
-  counter += 1
-end
-return nameArray
-end
 
 def assign_rooms(array)
-namesArray = []
+assign = Array.new
 counter = 1
 array.each do |name|
   namesArray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
