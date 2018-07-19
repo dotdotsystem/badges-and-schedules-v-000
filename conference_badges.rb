@@ -11,10 +11,10 @@ return each_name
 end
 def assign_rooms(array)
 rooms_assign = Array.new
-room_assign = 1
+assign = 1
 array.each {|room|
-  rooms_assign << "Hello, #{name}! You'll be assigned to room #{room}!"
-  room_assign += 1}
+  rooms_assign << "Hello, #{name}! You'll be assigned to room #{assign}!"
+  assign += 1}
 end
 return nameArray
 end
