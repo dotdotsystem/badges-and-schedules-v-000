@@ -10,7 +10,7 @@ end
 return each_name
 end
 def assign_rooms(array)
-rooms_assign = Array.new
+nameArray = []
 counter = 1
 array.each  do |name|
   rooms_assign << ("Hello, #{name}! You'll be assigned to room #{counter}!")
