@@ -12,9 +12,10 @@ end
 def assign_rooms(array)
 rooms_assign = Array.new
 counter = 1
-array.each {|room|
+array.each  do |room|
   rooms_assign << ("Hello, #{name}! You'll be assigned to room #{counter}!")
-  counter += 1}
+  counter += 1
+end
 return nameArray
 end
 def printer(array)
