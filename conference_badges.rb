@@ -3,9 +3,9 @@ return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
-  each_name = []
+  nameArray = []
   names.each do |name|
-    each_name.push "Hello, my name is #{name}."
+    nameArray.push "Hello, my name is #{name}."
 end
 return nameArray
 end
