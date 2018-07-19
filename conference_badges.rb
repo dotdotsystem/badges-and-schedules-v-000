@@ -13,9 +13,10 @@ end
 def assign_rooms(array)
   assign = Array.new
   counter = 1
-  array.each { |name| assign << ("Hello, #{name}! You'll be assigned to room #{counter}!") }
+  array.each do |name| assign << ("Hello, #{name}! You'll be assigned to room #{counter}!") 
+  end
   counter += 1
-return assign
+    return assign
 end
 
 def printer(array)
