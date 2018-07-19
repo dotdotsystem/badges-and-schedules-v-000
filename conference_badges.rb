@@ -23,10 +23,10 @@ def assign_rooms(array)
 namesArray = []
 counter = 1
 array.each do |name|
-  nameArray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+  namesArray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
   counter += 1
 end
-return nameArray
+return namesArray
 end
 
 def printer(array)
