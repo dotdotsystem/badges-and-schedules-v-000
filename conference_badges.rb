@@ -20,7 +20,7 @@ return nameArray
 end
 
 def assign_rooms(array)
-nameArray = []
+namesArray = []
 counter = 1
 array.each do |name|
   nameArray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
